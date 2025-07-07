@@ -188,7 +188,7 @@ However, manual testing still plays a crucial role in **UX validation** and **ex
 
 ---
 
-## 📎 Screenshot (Attach Here)
+## 📎 Screenshot (test_results_screenshot.png)
 
 > *(Insert screenshot of test result showing pass/fail status for each login scenario.)*
 
