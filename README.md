@@ -126,7 +126,40 @@ However, manual testing still plays a crucial role in **UX validation** and **ex
 
 > *(Insert screenshot of test result showing pass/fail status for each login scenario.)*
 
+🔢 Task 3: Predictive Analytics for Resource Allocation
+🧠 Objective
+To develop a machine learning model that predicts the priority of medical issues (e.g., high/medium/low) using the Kaggle Breast Cancer Dataset. This helps optimize how resources are allocated in healthcare settings.
 
+📦 Dataset
+Kaggle Breast Cancer Dataset
+Source: Kaggle - Breast Cancer Wisconsin Dataset
+
+🛠️ Steps Performed
+Data Loading – Loaded dataset using pandas.
+
+Data Preprocessing – Checked for missing values, removed irrelevant columns, and encoded categorical labels.
+
+Feature Engineering – Defined features (X) and target variable (y).
+
+Train/Test Split – Split the dataset into 80% training and 20% testing data.
+
+Model Training – Trained a Random Forest Classifier using scikit-learn.
+
+Prediction – Generated predictions using the test set.
+
+Evaluation – Calculated accuracy, F1-score, and visualized a confusion matrix.
+
+Comments – Added detailed comments for clarity and learning.
+
+📈 Performance Metrics
+Accuracy: XX.X%
+
+F1 Score: XX.X
+
+(Fill in your actual results from your notebook)
+
+🤖 Why This Matters
+By predicting the priority level of diagnoses, medical institutions can better allocate resources, triage urgent cases, and improve patient outcomes — especially in low-resource settings.
 
 
 🧠 Tools Used
