@@ -1,0 +1,6 @@
+test_number,description,username,password,expected,actual,status,timestamp
+1,Valid credentials,tomsmith,SuperSecretPassword!,success,success,PASS,2025-07-07 19:54:34
+2,Invalid username and password,wronguser,wrongpass,failure,error,ERROR,2025-07-07 19:54:36
+3,"Valid username, invalid password",tomsmith,wrongpass,failure,failure,PASS,2025-07-07 19:54:46
+4,Empty credentials,,,failure,failure,PASS,2025-07-07 19:54:53
+5,"Username only, no password",tomsmith,,failure,failure,PASS,2025-07-07 19:54:59
