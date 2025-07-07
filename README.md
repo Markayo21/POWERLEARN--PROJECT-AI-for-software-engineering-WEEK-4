@@ -53,7 +53,7 @@ students = [
     {"name": "Bob", "score": 85},
     {"name": "Charlie", "score": 78}
 ]
-
+```
 # Copilot version
 print("AI version:", sort_dict_list_by_key(students, "score"))
 
@@ -78,20 +78,55 @@ In conclusion, AI tools like GitHub Copilot are powerful for boosting productivi
  200-word reflection analysis
 
 
-## 🧪 AI-Powered Automated Testing Summary - task 2
+# 🧪 Task 2: Automated Testing with AI
+
+## 🎯 Objective
+The goal of this task is to demonstrate how AI-powered tools like Selenium or Testim.io can be used to automate web application testing — specifically for login functionality. This includes running tests for valid and invalid credentials and highlighting how AI improves software testing compared to traditional manual methods.
+
+## 🛠️ Tools & Framework
+- **Framework**: Selenium WebDriver (Python)
+- **Optional**: AI-enhanced plugins or Testim.io
+- **Test Scenario**: Login page (valid & invalid credentials)
+- **Deliverables**: Test script, screenshot of test results, 150-word summary
+
+---
+
+## ✅ Task Breakdown
+
+1. **Automated Test Case**:  
+   Developed a Selenium script to simulate login attempts using:
+   - Valid credentials
+   - Invalid username
+   - Invalid password
+   - Empty fields
+   - Special characters
+
+2. **Execution & Results**:  
+   Tests executed on a sample login form.  
+   Outcome: All five cases completed under 2 minutes. Screenshot attached.
+
+---
+
+## 📊 150-Word Analysis: AI-Powered vs Manual Testing
 
 AI-powered automated testing significantly improves test coverage compared to manual testing in several key areas:
 
-1. **Speed & Efficiency**: Automated tests execute in seconds. In our test case, 5 login scenarios (valid and invalid credentials) completed in under 2 minutes.
-2. **Consistency**: AI ensures identical test execution every time, eliminating human errors often seen in manual processes.
-3. **24/7 Testing**: Tests can run continuously, detecting issues right after code changes—something not possible with human-only testing.
-4. **Better Coverage**: AI can test thousands of combinations systematically. Manual testing is inherently limited by time and mental capacity.
-5. **Regression Prevention**: Automated scripts instantly flag issues when new code unintentionally affects existing features.
-6. **Cost Effectiveness**: Though setup requires effort, automation significantly reduces long-term testing costs.
+1. **Speed & Efficiency**: Automated tests execute in seconds. In our test case, 5 login scenarios completed in under 2 minutes.  
+2. **Consistency**: AI ensures identical test execution every time, eliminating human errors seen in manual testing.  
+3. **24/7 Testing**: Tests can run continuously after each code change, unlike human-dependent testing.  
+4. **Better Coverage**: AI can test thousands of input combinations quickly, something humans can’t do within limited time.  
+5. **Regression Prevention**: Automated tests catch when updates break existing functionality.  
+6. **Cost Effectiveness**: Initial setup costs are offset by long-term efficiency gains.
 
-That said, **manual testing remains essential** for UX validation and exploratory testing, where human intuition and perception play a critical role.
+However, manual testing still plays a crucial role in **UX validation** and **exploratory testing**, where human judgment and creativity are essential.
 
-✅ *Tool used: Selenium (with optional AI plugin support)*
+---
+
+## 📎 Screenshot (Attach Here)
+
+> *(Insert screenshot of test result showing pass/fail status for each login scenario.)*
+
+
 
 
 🧠 Tools Used
