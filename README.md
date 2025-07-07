@@ -1,5 +1,5 @@
 # POWERLEARN--PROJECT-AI-for-software-engineering-WEEK-4
-# 🧠 AI-Powered Code Completion – Task 1
+# 🧠 Task 1- AI-Powered Code Completion 
 
 ## 🎯 Task Objective
 
