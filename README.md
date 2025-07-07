@@ -59,7 +59,8 @@ print("AI version:", sort_dict_list_by_key(students, "score"))
 
 # Manual version
 print("Manual:", sort_dict_list_by_key(students, "score"))
-📊 200-Word Comparison – Copilot vs Manual
+
+## 📊 200-Word Comparison – Copilot vs Manual
 In this task, I used GitHub Copilot to generate a Python function that sorts a list of dictionaries by a given key. Copilot suggested a very concise and efficient implementation using Python’s built-in sorted() function with a lambda function. The code was just one line and very readable.
 
 In contrast, I manually wrote a version using nested loops, similar to a bubble sort. While this helped me understand sorting better, it was longer, less efficient, and more prone to bugs.
@@ -70,7 +71,7 @@ However, writing the manual version was still helpful for learning. It showed me
 
 In conclusion, AI tools like GitHub Copilot are powerful for boosting productivity and writing clean code quickly. But manual coding builds core skills. The best approach is using both together: rely on AI for speed, but understand the logic for mastery.
 
-📁 Deliverables
+## 📁 Deliverables
  Python code for AI and manual implementation
 
  Side-by-side comparison
