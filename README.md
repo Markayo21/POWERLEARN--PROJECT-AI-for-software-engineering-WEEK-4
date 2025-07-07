@@ -276,4 +276,51 @@ By integrating tools like AIF360 into the ML pipeline, companies can ensure thei
 
 ✅ This ethical reflection highlights the importance of responsible AI practices alongside technical performance.
 
+# 🚀 Bonus Task: Innovation Challenge (10%)
+
+## 💡 AI Tool Proposal: **AutoDoc.AI — Intelligent Documentation Generator for Codebases**
+
+---
+
+### 📌 Purpose
+Software teams often neglect proper documentation due to time constraints or lack of incentives. This leads to poorly maintained, inconsistent, or missing documentation — a critical issue for onboarding, debugging, and collaboration.
+
+**AutoDoc.AI** is a proposed AI-powered tool that automatically generates human-readable documentation from codebases using large language models (LLMs) and contextual learning.
+
+---
+
+### ⚙️ Workflow
+
+1. **Code Parsing**: AutoDoc.AI scans the codebase (e.g., Python, JavaScript, Java).
+2. **Semantic Understanding**: Using LLMs (e.g., GPT-4 or Claude), it understands the purpose of each function, class, or module.
+3. **Natural Language Generation**: It creates documentation in Markdown, including:
+   - Function/class summaries
+   - Parameter descriptions
+   - Example usages
+   - Inline docstrings
+4. **Version-Aware Updates**: AutoDoc.AI updates docs automatically when the code changes using Git hooks.
+5. **Interactive Feedback**: Developers can review, edit, or regenerate documentation through a web interface.
+
+---
+
+### 🌍 Impact
+
+- **Saves Time**: Reduces the hours spent on manual documentation writing.
+- **Improves Maintainability**: Clear docs improve collaboration and debugging.
+- **Supports Open Source**: Enhances readability for community contributors.
+- **Reduces Knowledge Silos**: Ensures knowledge transfer when developers leave.
+
+---
+
+### 🔧 Tools for Implementation
+- LLM APIs (OpenAI GPT-4 / Claude)
+- Git hooks for change detection
+- VS Code / GitHub Copilot plugin integration
+- Frontend UI using React + Supabase
+
+---
+
+### ✅ Summary
+AutoDoc.AI bridges the gap between code and communication. By automating documentation intelligently, it fosters cleaner codebases, quicker onboarding, and better engineering hygiene.
+
 
